@@ -1,0 +1,13 @@
+{
+  "name": "enuf-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The English company website for enuf, a mobile game studio.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs --production"
+  },
+  "engines": { "node": ">=20" }
+}
